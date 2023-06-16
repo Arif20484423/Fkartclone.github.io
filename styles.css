@@ -1,0 +1,100 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(211, 208, 208);
+}
+.head{
+    background-color: #2874f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#sbar{
+    width: 25em;
+    height: 2.5em;
+      background-color: white;
+
+}
+
+#logo{
+    /* margin:1em; */
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+#sbut{
+    width: 2-3em;
+    height: 2.3em;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+input{
+   border: 0px;
+}
+button{
+    border: 0px;
+}
+.item{
+    margin: 0 0.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-weight: bolder;
+}
+.drd{
+    width: 1em;
+    height: 0.7em;
+    /* animation: rot 1s; */
+}
+@keyframes rot{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+.l1{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    background-color: white;
+    margin: 0em 0em;
+
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1.5em;
+}
+.item1 img{
+    width: 5vw;
+    margin: 0.9em 0 0.1em;
+}
+.foot{
+    position: relative;
+    bottom: 0;
+    background-color: white;
+    width: 100vw;
+    text-align: center;
+}
+.foot h5{
+    margin: 0;
+    padding-top:1.5rem ;
+    height: 3rem;
+    background-color: white;
+}
+#mid{
+    width: 50vw;
+    margin: 2vh 25vw;
+}
